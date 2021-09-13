@@ -19,6 +19,9 @@
     line-height: 28px;
     float: right;
     word-spacing: 10px;
+}
+a{
+    text-decoration: none;
     color: black;
 }
 .header-nav-button{

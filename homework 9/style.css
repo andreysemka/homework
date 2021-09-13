@@ -1,0 +1,31 @@
+.body{
+        width: 100%;
+        padding: 0 150px;
+        display: block;
+        box-sizing: border-box;
+}
+.header{
+    margin: 70px 0 0 0;
+    display: inline-block;
+}
+.nav{
+    display: block;
+    float: right;
+    margin: 20px 0 0 400px;
+}
+a {
+    text-decoration: none;
+    margin: 15px;
+    color: black;
+    font-family: Raleway;
+    font-weight: bold;
+}
+a:first-child{
+    text-decoration: overline;
+    text-decoration-color: chocolate;
+}
+.fresh-life{
+    display: block;
+    float: left;
+    width: 30%;
+}
