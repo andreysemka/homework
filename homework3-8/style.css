@@ -1,0 +1,128 @@
+.body{
+    width: 100%;
+    padding: 0 100px;
+    display: block;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    display: inline-block;
+    margin: 20px 0;
+    padding: 3px;
+}
+.header-logo{
+    font-size: 25px;
+}
+.header-nav{
+    width: 400px;
+    font-size: 14px;
+    line-height: 28px;
+    float: right;
+    word-spacing: 10px;
+    color: black;
+}
+.header-nav-button{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 30px;
+    margin: 0 0 0 20px;
+    position: absolute;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px
+}
+.header-button-in{
+    background-color: white;
+    color: black;
+}
+.header-button-up,.button-now{
+    background-color: #FF9900;
+    color: white;
+}
+.arrow-right{
+    border: solid orange;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.section-1{
+    margin: 20px auto;
+    display: block;
+    column-count: 2;
+}
+.Design-Thinking{
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 54px;
+}
+.tools-text{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+.img-1{
+    position: relative;
+}
+.image{
+    background-size: 100% 100%;
+    z-index:99;
+    background-image: url(./image/Oval\ 1.png);
+}
+.icon{
+    display: block;
+    width: 100%;
+}
+.icon-2{
+    display: flex;
+}
+.design{
+    width: 80%;
+    text-align: center;
+}
+.text-icon{
+    width: 250px;
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    padding: 40px;
+    line-height: 28px;
+}
+.button-now{
+    position: relative;
+    left: 40%;
+}
+.section-make{
+    display: block;
+    width: 100%;
+    margin: 100px 0;
+}
+.make{
+    display: inline-block;
+    margin: 20px 0;
+    text-align: left;
+    width: 44%;
+}
+.img3{
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    margin: 20px 0;
+    padding: 0 50px;
+}
+.text-2{
+    font-family: Poppins;
+    font-size: 16px;
+}
+.design-pro{
+    display: contents;
+    font-family: Poppins;
+    font-style: Bold;
+    font-size: 36px;
+}
+.design-pro2{
+    font-family: Poppins;
+   font-style: Bold;
+   font-size: 16px;
+}

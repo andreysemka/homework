@@ -1,0 +1,21 @@
+.body{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+.h1{
+    color: white;
+    align-content: center;
+    background-color: #A52A2A;
+}
+.colortext1, .colortext2{
+    color: #27A4F7;
+}
+.text, .colortext1{
+    font-weight: bold;
+}
+.footer{
+    color: white;
+    background-color: black;
+    font-size: 20px;   
+}
