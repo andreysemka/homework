@@ -25,7 +25,11 @@ a:first-child{
     text-decoration-color: chocolate;
 }
 .fresh-life{
+    position: absolute;
     display: block;
     float: left;
     width: 30%;
+}
+.img-1{
+    position:absolute;
 }
