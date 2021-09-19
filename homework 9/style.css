@@ -1,12 +1,15 @@
 .body{
-        width: 100%;
-        padding: 0 150px;
-        display: block;
-        box-sizing: border-box;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-image: url(./img/img-1.png);
+    background-repeat: no-repeat;
 }
-.header{
+header{
+    padding: 0 150px;
     margin: 70px 0 0 0;
     display: inline-block;
+    
 }
 .nav{
     display: block;
@@ -20,16 +23,47 @@ a {
     font-family: Raleway;
     font-weight: bold;
 }
+h1{
+    font-size: 70px;
+    font-family: Raleway;
+    margin: auto;
+}
+h2{
+    font-size: 40px;
+    font-family: Raleway;
+}
+p{
+    font-size: 12px;
+    font-family: Raleway;
+}
 a:first-child{
     text-decoration: overline;
-    text-decoration-color: chocolate;
+    text-decoration-color: #ff6033;
 }
 .fresh-life{
-    position: absolute;
     display: block;
     float: left;
     width: 30%;
+    margin-top: 200px;
 }
-.img-1{
-    position:absolute;
+.button-get{
+    color: white;
+    background-color: #ff6033;
+    width: 200px;
+    height: 60px;
+    margin: 40px 0 0 0;
+}
+.section-about{
+    display: block;
+    margin: 420px 0 0 0;
+    padding: 0 150px;
+    background-color: #00c4c4;
+    position: absolute;
+}
+.text-2{
+    width: 40%;
+    float: right;
+    text-align: left;
+    color: white;
+    margin: 160px 0 0 0;
 }
