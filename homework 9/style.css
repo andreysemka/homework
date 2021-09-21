@@ -2,6 +2,7 @@
     width: 100%;
     display: block;
     box-sizing: border-box;
+    margin: 0;
 }
 header{
     padding: 70px 100px;
@@ -39,7 +40,7 @@ a:first-child{
 }
 .section-life{
     width: 19%;
-    position: fixed;
+    position: absolute;
     padding: 370px 0 0 100px;
 }
 .fresh-life{
@@ -57,7 +58,7 @@ a:first-child{
     display: block;
     padding: 0 150px;
     background-color: #00c4c4;
-    position: absolute;
+    margin: -90px 0 0 0;
 }
 .text-2{
     width: 40%;
@@ -70,10 +71,15 @@ a:first-child{
     width: 100%;
     display: inline-block;
     background-color: #70bfff;
-    margin: 648px 0 0 0;
+}
+.shopping-span{
+    width: 50%;
 }
 .service{
     float: right;
     width: 49%;
+}
+.a-sections{
+    background-color: white;
 }
   
