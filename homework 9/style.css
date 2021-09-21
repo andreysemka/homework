@@ -2,19 +2,16 @@
     width: 100%;
     display: block;
     box-sizing: border-box;
-    background-image: url(./img/img-1.png);
-    background-repeat: no-repeat;
 }
 header{
-    padding: 0 150px;
-    margin: 70px 0 0 0;
-    display: inline-block;
-    
+    padding: 70px 100px;
+    position: fixed;
 }
 .nav{
     display: block;
     float: right;
-    margin: 20px 0 0 400px;
+    margin: 22px 0 0 0;
+    padding: 0 0 0 525px;
 }
 a {
     text-decoration: none;
@@ -40,22 +37,24 @@ a:first-child{
     text-decoration: overline;
     text-decoration-color: #ff6033;
 }
+.section-life{
+    width: 19%;
+    position: fixed;
+    padding: 370px 0 0 100px;
+}
 .fresh-life{
     display: block;
-    float: left;
-    width: 30%;
-    margin-top: 200px;
 }
 .button-get{
     color: white;
     background-color: #ff6033;
     width: 200px;
     height: 60px;
-    margin: 40px 0 0 0;
+    margin: 20px 0 0 0;
+    font-size: 17px;
 }
 .section-about{
     display: block;
-    margin: 420px 0 0 0;
     padding: 0 150px;
     background-color: #00c4c4;
     position: absolute;
@@ -67,3 +66,14 @@ a:first-child{
     color: white;
     margin: 160px 0 0 0;
 }
+.shopping{
+    width: 100%;
+    display: inline-block;
+    background-color: #70bfff;
+    margin: 648px 0 0 0;
+}
+.service{
+    float: right;
+    width: 49%;
+}
+  
