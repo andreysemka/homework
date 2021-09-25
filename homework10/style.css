@@ -25,15 +25,15 @@ header p{
     color: #999;
 }
 section{
-    display: inline-block;
+    display: flex;
     width: 100%;
-   column-count: 4;
+    text-align: center
 }
 section div{
 
 }
-section div svg{
-
+section div img{
+    
 }
 section div h2{
 
@@ -42,10 +42,10 @@ section div p{
 
 }
 .section-1{
-    width: 20%;
     
 }
 .section-2{
-    width: 20%;
     background-color: teal;
+}
+.section-3{
 }
