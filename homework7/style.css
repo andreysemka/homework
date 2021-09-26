@@ -1,0 +1,22 @@
+body{
+    display: block;
+    background-color: black;
+    color: white;
+}
+header{
+    text-align: center;
+    padding: 120px 0 50px 0;
+}
+section{
+    text-align: center;
+}
+.div-icon{
+    margin: 10px auto;
+}
+footer{
+    margin: 100px 0 0 40px;
+    text-align: center;
+}
+section img {
+    padding: 0 30px 0 0;
+}
