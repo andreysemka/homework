@@ -1,3 +1,4 @@
+/* хорошое начало для стилей */
 body{
     background-color: white;
 }
@@ -41,7 +42,7 @@ section div h2{
 section div p{
 
 }
-.section-1{
+.section-1{ /* название класса совпадает с тегом. Лучше назови колонкой*/
     
 }
 .section-2{

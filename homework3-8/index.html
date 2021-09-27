@@ -13,11 +13,16 @@
 </head>
 
 <body class="body">
+<!-- есть горизонтальный скрол -->
     <header class="header">
         <section class="header-logo">
             <img src="./image/logo1.png" alt="">
             <a href="#">Productly</a>
-            <nav class="header-nav">
+            <nav class="header-nav"> <!--
+             1) навигация-не как неотносится к logo
+             2) nav-блок должен быть с правой стороны.
+             3)У nav-блока пустое пространство с правой стороны
+             -->
                 <a href="#">Product</a>
                 <a href="#">Customers</a>
                 <a href="#">Pricng</a>
@@ -30,24 +35,26 @@
         </section>
     </header>
     <section class="section-1">
-        <h1 class="Design-Thinking">
+        <h1 class="Design-Thinking"> <!-- непонятно -->
             The Design Thinking superpowers
         </h1>
         <p class="tools-text">Tools, tutorials, design and innovation experts, all in one place! The most
             intuitive way to imagine your next user experience.
         </p>
         <div class="div-arrow">
-            <button class="header-button-up">Get started</button>
-            <i class="arrow-right"></i>
+            <button class="header-button-up">Get started</button> <!-- у кнопки должно быть изменения курсора -->
+            <i class="arrow-right"></i> <!--
+             1) arrow-right - иконка не по центру текста
+             2) arrow-right - Некликабельна -->
             <a class="watch" href="#">Watch the video</a>
         </div>
         <div class="img-1">
             <img src="./image/image 1.png" class="image" alt="">
         </div>
     </section>
-    <section class="icon">
-        <h2 class="design">We design tools to unveil your superpowers</h2>
-        <nav class="icon-2">
+    <section class="icon"> <!--непонятное название класса - Судя из названия ето просто какаето иконка, непонятно откуда, и не понятно где. -->
+        <h2 class="design">We design tools to unveil your superpowers</h2> <!-- нелогичное аграничение в 80% -->
+        <nav class="icon-2"> <!-- а тут разве иконка ? -->
             <figure class="text-icon">
                 <img src="./icon/icon bd.svg" class="icon-1" alt="">
                 <h3>First click tests</h3>
@@ -110,6 +117,10 @@
                 energy
                 companies that we
                 trust and will
+            <!-- выравнивание кода.
+             1) Открываюшийся и закрываюшийся тег должны быть на одной вертикальной линии
+             2) на одной строке с Открываюшийся и закрываюшийся тегами недолжно ничего стоять
+          -->
             <p class="text-2, decision-text2"><img class="decision-icon" src="./icon/Group 13.svg" alt="#">We track the
                 markets daily
                 and know
