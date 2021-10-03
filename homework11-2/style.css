@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    background-color: black;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: gray;
+    padding: 50px;
+}
+h4{
+    font-size: 13px;
+    font-family: "HansKendrick";
+    padding-left: 30px;
+}
+h1{
+    font-size: 30px;
+    font-family: "HansKendrick";
+    padding-left: 30px;
+}
+.div-1{
+    background-image: url(./img/Layer\ 8.png);
+    width: 51%;
+    background-repeat: no-repeat;
+    margin: 10px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+} 
+.div-2{
+    background-color: white;
+    width: 26%;
+    margin: 10px;
+}
+.div-3{
+    background-color: white;
+    width: 26%;
+    margin: 10px;
+}
