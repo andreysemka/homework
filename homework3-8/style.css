@@ -1,190 +1,218 @@
-.body{
+body{
     width: 100%;
     padding: 0 100px;
     display: block;
     box-sizing: border-box;
-}
-.header{
-    width: 100%;
-    display: inline-block;
-    margin: 20px 0;
-    padding: 3px;
-}
-.header-logo{
-    font-size: 25px;
-}
-.header-nav{
     font-family: Poppins;
-    width: 50%;
-    font-size: 14px;
-    line-height: 35px;
-    float: right;
-    word-spacing: 10px;
 }
 a{
     text-decoration: none;
     color: black;
 }
+p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
 button{
-    width: 120px;
-    height: 40px;
-}
-.header-nav-button{
-    display: inline-block;
-    margin-left: 15px;
-    font-size: 30px;
-    margin: 0 0 0 20px;
-    position: absolute;
-    font-weight: 600;
     font-size: 16px;
-    line-height: 24px
+    line-height: 24px;
+    font-weight: 600;
 }
-.header-button-in{
+h1{
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 54px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.header_logo{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header_nav{
+    font-family: Poppins;
+    width: 60%;
+    text-align: right;
+    font-size: 14px;
+    line-height: 45px;
+    word-spacing: 10px;
+}
+.header_button{
+    word-spacing: 10px;
+    
+}
+.header_button_in{
+    width: 110px;
+    height: 46px;
     background-color: white;
     color: black;
+    border-radius: 4px;
 }
-.header-button-up,.button-now, .button-footer{
+.header_button_up{
+    width: 110px;
+    height: 46px;
     background-color: #FF9900;
     color: white;
-    background-size: 20px;
+    border: none;
+    border-radius: 4px;
 }
-.div-arrow{
-    display: inline-block;
+.section_design{
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
 }
-.arrow-right{
+.section_design_text{
+    padding-right: 50px;
+}
+.section_design_text_center{
+    padding-right: 45px;
+    padding-bottom: 45px;
+}
+.section_design_button{
+    width: 175px;
+    height: 53px;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.section_design_arrow-right{
     display: inline-block;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     border-left: 15px solid #ff9800;
     margin: 0 10px 0 20px;
 }
-.watch{
+.section_design_watch{
     color: #ff9800;
     font-size: 18px;
+    text-decoration: revert;
 }
-.section-1{
-    margin: 40px auto;
-    display: block;
-    column-count: 2;
-}
-.Design-Thinking{
-    font-weight: bold;
-    font-size: 44px;
-    line-height: 54px;
-}
-.tools-text{
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
-}
-.img-1{
-    position: relative;
+.section_design_img{
+    padding-top: 50px;
+    padding-left: 60px;
 }
 .image{
-    background-size: 100% 100%;
-    z-index:99;
     background-image: url(./image/Oval\ 1.png);
+    background-repeat: no-repeat;
 }
-.icon{
-    display: block;
-    width: 100%;
-}
-.icon-2{
+.section_tools{
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.design{
-    width: 80%;
+.section_tools_text{
+    font-weight: bold;
+    font-size: 36px;
     text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
 }
-.text-icon{
-    width: 250px;
-    display: inline-block;
-    text-align: left;
+.section_tools_icon{
+    display: flex;
+    margin-top: 54px;
+}
+.section_tools_icon-text{
     margin: 0 auto;
-    padding: 40px;
-    line-height: 28px;
+    width: 21%;
 }
-.button-now{
-    position: relative;
-    left: 40%;
+.section_tools_button{
+    width: 175px;
+    height: 53px;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 34px;
 }
-.section-make{
-    display: block;
-    width: 100%;
-    margin: 100px 0;
+.section_prof{
+    display: flex;
+    margin-top: 251px;
+    margin-bottom: 55px;
 }
-.make{
+.section_prof_title{
     display: inline-block;
-    margin: 20px 0;
+    margin-top: 30px;
+    margin-left: 116px;
     text-align: left;
     width: 44%;
 }
-.img3{
-    position: absolute;
-    display: inline-block;
-    width: 50%;
-    margin: 20px 0;
-    padding: 0 50px;
-}
-.text-2{
-    font-family: Poppins;
+.section_prof_title_text, .section_making_title_text, .section_marketers_title_text{
     font-size: 16px;
 }
-.design-pro{
-    display: contents;
-    font-family: Poppins;
-    font-style: Bold;
+.section_prof_title_subject, .section_making_title_subject, .section_marketers_title_subject{
+    margin-top: auto;
     font-size: 36px;
 }
-.design-pro2{
-    font-family: Poppins;
-   font-style: Bold;
+.section_prof_title_heading, .section_marketers_title_heading{
    font-size: 16px;
 }
-.decision-making{
-    display: block;
-    width: 100%;
+.section_prof_img{
+    padding-left: 104px;
+    margin-top: 31px;
 }
-.decision-text{
-    display: inline-block;
-    width: 33%;
-    float: right;
+.section_making{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.decision-icon{
-    margin: 0 20px 0 0;
+.section_making_title{
+    width: 37%;
 }
-.decision-text2{
+.section_making_title_desc{
+    font-size: 16px;
     display: flex;
 }
-.marketers{
-    display: block;
-    width: 100%;
-    margin: 100px 0 100px 0;
+.section_making_title_icon{
+    margin: 0 20px 0 0;
 }
-.marketers-text{
-    display: inline-block;
-    width: 37%;
-    float: left;
+.section_marketers{
+    display: flex;
+   margin-top: 200px;
 }
-.marketers-img{
-    width: 46%;
-    margin-left: 200px;
+.section_marketers_title{
+    width: 41%;
+}
+.section_making_img{
+    margin-left: 100px;
 }
 .footer{
-    display: block;
+    display: flex;
     width: 100%;
 }
-.footer-logo{
+.footer_logo{
+    display: flex;
+    align-items: center;
     font-size:25px;
+    font-weight: bold;
 }
-.footer-nav, .footer-nav2, .footer-nav3{
-    display: inline-block;
+.footer_nav, .footer_nav2{
     width: 33%;
-    text-align: center;
-    margin: 40px 0 0 0;
-    font-family: Poppins;
+    margin-top: 200px;
     font-size: 16px;
 }
-.footer-nav3{
-    max-width: max-content;
+.footer_nav3{
+    display: flex;
+    align-items: flex-end;
+}
+.footer_nav_ul, .footer_nav2_ul{
+    line-height: 2;
+}
+.footer_nav3_ul{
+    line-height: 4;
+}
+.footer_button{
+    width: 138px;
+    height: 40px;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    border-radius: 4px;
 }
