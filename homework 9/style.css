@@ -1,6 +1,4 @@
 .body{
-    width: 100%;
-    display: block;
     box-sizing: border-box;
     margin: 0;
 }
@@ -14,7 +12,7 @@ header{
     margin: 22px 0 0 0;
     padding: 0 0 0 525px;
 }
-a {
+a{
     text-decoration: none;
     margin: 15px;
     color: black;
@@ -38,15 +36,15 @@ a:first-child{
     text-decoration: overline;
     text-decoration-color: #ff6033;
 }
-.section-life{
+.wrap{
+    display: block;
+}
+.wrap-section{
     width: 19%;
     position: absolute;
     padding: 370px 0 0 100px;
 }
-.fresh-life{
-    display: block;
-}
-.button-get{
+.wrap-section-button{
     color: white;
     background-color: #ff6033;
     width: 200px;
@@ -60,26 +58,255 @@ a:first-child{
     background-color: #00c4c4;
     margin: -90px 0 0 0;
 }
-.text-2{
+.section-about-text{
     width: 40%;
     float: right;
     text-align: left;
     color: white;
     margin: 160px 0 0 0;
 }
-.shopping{
-    width: 100%;
-    display: inline-block;
+.section-shop{
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
     background-color: #70bfff;
 }
-.shopping-span{
+.section-shop-span{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.service{
+.section-shop-span-link{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 55%;
+    justify-content: space-around;
+    height: 70px;
+}
+.section-shop-span-link-span{
+    text-align: center;
+    padding: 35px;
+}
+.section-shop-span-link-img{
+    padding: 8%;
+}
+.section-shop-service{
     float: right;
     width: 49%;
+    position: relative;
 }
-.a-sections{
-    background-color: white;
+.section-shop-service-text{
+    position: absolute;
+    padding-top: 224px;
+    color: white;
 }
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffe92f;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.wrapper-text{
+    text-align: center;
+    margin: 0 456px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.wrapper-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.wrapper-img-second{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper-btn{
+background-color: #5585a2;
+width: 200px;
+height: 55px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 127px;
+}
+.container-img{
+position: absolute;
+max-width: 1400px;
+}
+.container-content{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 95px;
+    margin-left: 100px;
+}
+.container-content-p{
+    font-size: 17px;
+    font-family: "Myriad Pro";
+    width: 42%;
+  }
+  .container-div{
+    display: flex;
+    align-items: center;
+  }
+.container-div-email{
+    font-size: 15px;
+    width: 570px;
+    height: 50px;
+}
+.container-div-btn{
+    color: white;
+    background-color: #96b92c;
+    border: none;
+    font-size: 20px;
+    width: 170px;
+    height: 55px;
+    margin-left: 30px;
+}
+.section-blog{
+    background-color: #b07cf7;
+    position: relative;
+    text-align: center;
+}
+.section-blog-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.section-blog-text-p{
+    text-align: center;
+    width: 31%;
+}
+.section-blog-box{
+    display: flex;
+    justify-content: center;
+}
+.section-blog-box-first{
+    background-image: url(./img/img\ blog-1.png);
+    background-repeat: no-repeat;
+}
+.section-blog-box-second{
+    background-image: url(./img/img\ blog-2.png);
+    background-repeat: no-repeat;
+}
+.section-blog-box-three{
+    background-image: url(./img/img\ blog-3.png);
+    background-repeat: no-repeat;
+}
+.section-blog-box-first-content, .section-blog-box-second-content, .section-blog-box-three-content{
+    display: flex;
+    flex-direction: column;
+    height: 310px;
+    width: 370px;
+}
+.section-blog-box-first-content-svg, .section-blog-box-second-content-svg, .section-blog-box-three-content-svg{
+    position: absolute;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+.section-blog-box-first-content-p-one, .section-blog-box-second-content-p-one, .section-blog-box-three-content-p-one{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 200px;
+}
+.section-blog-box-first-content-p-two, .section-blog-box-second-content-p-two, .section-blog-box-three-content-p-two{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 30px;
+    margin: 0;
+}
+.section-blog-box-btn{
+    color: white;
+    background-color: #f72b3b;
+    border: none;
+    font-size: 20px;
+    width: 200px;
+    height: 55px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.section-contact{
+    background-image: url(./img/img\ contact.png);
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+    width: 1400px;
+    height: 766px;
+}
+.section-contact-text{
+    font-size: 17px;
+    font-family: "Myriad Pro";
+    margin: 30px 540px;
+}
+.section-contact-column{
+    display: flex;
+    align-content: space-around;
+}
+.section-contact-column-user{
+    width: 46%;
+}
+.section-contact-column-user-name, .section-contact-column-user-email, .section-contact-column-user-phone{
+    width: 500px;
+    height: 50px;
+    padding-left: 20px;
+    background-color: #00c4c4;
+    border: none;
+    margin-bottom: 15px;
+}
+::placeholder{
+    color: white;
+}
+.section-contact-column-user-text{
+    width: 500px;
+    height: 250px;
+    padding-left: 20px;
+    background-color: #00c4c4;
+    border: none;
+}
+.section-contact-column-meta{
+    width: 49%;
+    text-align: left;
+    padding-left: 140px;
+}
+.section-contact-column-meta-text{
+    font-size: 17px;
+    font-family: "Raleway";
+}
+.section-contact-column-meta-text-span{
+    font-weight: bold;
+}
+.footer{
+    font-size: 16px;
+    background-color: #262626;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #dddddc;
+    height: 90px;
+}
+.footer-span{
+    color: red;
+}
+  
+  
+
+  
+ 
+  
+  
   
