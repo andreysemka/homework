@@ -1,0 +1,15 @@
+.wrap{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+}
+svg:hover{
+    background-color: #2a69a6;
+}
+.wrap-div{
+    margin: 0 auto;
+}
+.wrap-div-text{
+    padding: 0 87px;
+}
