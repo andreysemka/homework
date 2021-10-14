@@ -1,0 +1,243 @@
+
+body{
+    margin: 0;
+    max-width: 1400px;
+}
+.wrap{
+    background-image: url(./img/hero-bg.jpg.png);
+    background-repeat: no-repeat;
+    height: 577px;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 205px;
+}
+.wrap-text{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 140px;
+}
+.wrap-text-caption{
+    font-size: 54px;
+    font-family: "Lato";
+    font-weight: bold;
+    margin: 0;
+}
+.wrap-text-desc{
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    padding: 0 485px;
+}
+.container{
+    padding-top: 140px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.container-box{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #000;
+    position: relative;
+    padding: 30px;
+}
+.container-box-title{
+    position: absolute;
+    font-size: 56px;
+    font-family: "Lato";
+    font-weight: bold;
+    margin: 0;
+    top: -30px;
+    background-color: white;
+    letter-spacing: 5px;
+    padding: 0 100px;
+}
+.container-box-text{
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: "Lato";
+    text-align: center;
+    width: 55%;
+}
+.container-box-text + .container-box-text{
+    width: 39%;
+}
+.box{
+    background-image: url(./img/services.jpg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 286px;
+    text-align: center;
+    padding-top: 70px;
+}
+.box-column{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  position: relative;
+  color: white;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+.box-column-title{
+    font-size: 56px;
+    font-family: "Lato";
+    font-weight: bold;
+    letter-spacing: 5px;
+    position: absolute;
+    margin: 0;
+    top: -37px;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+.box-column-title:before{
+    content: "";
+    width: 240px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: -101%;
+    top: 36px;
+}
+.box-column-title:after{
+    content: "";
+    width: 240px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    right: -101%;
+    top: 36px;
+}
+.box-column-text{
+    font-size: 16px;
+    font-family: "Lato";
+    width: 55%;
+}
+.holder{
+    padding-top: 70px;
+}
+.holder-col{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    position: relative;
+    padding-top: 100px;
+}
+.holder-col-title{
+    font-size: 56px;
+    font-family: "Lato";
+    font-weight: bold;
+    position: absolute;
+    line-height: 1;
+    top: -79px;
+    background-color: white;
+    letter-spacing: 5px;
+    padding: 0 100px;
+}
+.holder-col-subtitle{
+    font-size: 33px;
+    font-family: "Lato";
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.holder-col-text{
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    text-align: center;
+    width: 540px;
+    margin: 0;
+    margin-bottom: 100px;
+}
+.wrapper{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrapper-picture-small{
+    position: relative;
+    width: 29%;
+}
+.wrapper-picture-big{
+    position: relative;
+    width: 42%;
+}
+.wrapper-picture-title{
+    font-size: 36px;
+    font-family: "Lato";
+    font-weight: bold;
+    position: absolute;
+    color: white;
+    z-index: 1;
+    top: 0;
+    margin-top: 120px;
+    padding-left: 20px;
+}
+.footer-box{
+    padding-top: 70px;
+}
+.footer-box-one{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    position: relative;
+}
+.footer-box-one-title{
+    font-size: 28px;
+    font-family: "Lato";
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+    top: -18px;
+    background-color: white;
+    padding: 0 70px;
+}
+.footer-box-one-text{
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    text-align: center;
+    padding-top: 50px;
+    margin: 0 200px;
+}
+.footer-box-one-btn{
+    margin: 50px 0;
+    background-color: #3c3c3c;
+    color: white;
+    width: 395px;
+    height: 58px;
+    font-size: 15px;
+    font-family: "Lato";
+    border: none;
+}
+.footer-box-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.footer-box-two-text{
+    margin-left: 30px;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
