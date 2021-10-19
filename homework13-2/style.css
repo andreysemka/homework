@@ -1,0 +1,58 @@
+h1{
+    font-size: 56px;
+    font-family: "Lato";
+    font-weight: bold;
+    text-align: center;
+}
+.section-box-text{
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+.wrap{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 65px;
+    height: 370px;
+}
+.wrap-picture-two{
+    background-image: url(./img/01\ \(3\).png);
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.wrap-picture-thee{
+    background-image: url(./img/02\ \(3\).png);
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.wrap-picture-four{
+    background-image: url(./img/05.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.wrap-picture-one:hover{
+    background-image: url(./img/Hover.png);
+}  
+.wrap-picture-two:hover{
+   background-image: url(./img/Hover.png);
+   display: block;
+}
+.wrap-picture-thee:hover{
+    background-image: url(./img/Hover.png);
+    display: block;
+} 
+.wrap-picture-four:hover{
+    background-image: url(./img/Hover.png);
+    display: block;
+} 

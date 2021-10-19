@@ -1,0 +1,72 @@
+body{
+    background-image: url(./img/Group\ 3\ copy.gif);
+    background-size: cover;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+}
+.wrap{
+    background-color: #111a28;
+    min-width: 685px;
+    min-height: 400px;
+    border-radius: 12px;
+    margin-top: 50px;
+}
+.wrap-logo{
+    padding-top: 25px;
+	padding-left: 25px;
+}
+.wrap-product{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.wrap-product-img{
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+.wrap-product-img-pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 65px;
+}
+.wrap-product-list{
+    color: rgb(194, 192, 192);
+}
+.wrap-product-list-title{
+    font-size: 24px;
+    font-family: "MuseoSansRounded";
+    width: 200px;
+    margin: 0 auto;
+}
+.wrap-product-list-active{
+    
+    border-color: rgb(255, 255, 255);
+    display: flex;
+}
+.wrap-product-list-active-size-items, .wrap-product-list-active-qty-items{
+    width: 70px;
+    height: 35px;
+    background-color: #111a28;
+    color: white;
+    margin: 25px 0;
+    text-align: center;
+}
+.wrap-product-list-btn{
+    width: 185px;
+    height: 42px;
+    background-color: #4c525a;
+    font-size: 14px;
+    color: white;
+    border-bottom: white;
+}
+.wrap-product-list-btn:hover{
+    background-color:#111a28;
+    border-color: white;
+    border-style: outset;
+}
+  
+  

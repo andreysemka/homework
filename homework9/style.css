@@ -1,10 +1,11 @@
 .body{
     box-sizing: border-box;
-    margin: 0;
+    margin: 0 auto;
 }
 header{
-    padding: 70px 100px;
-    position: fixed;
+    position: absolute;
+    margin-top: 70px;
+    padding-left: 100px;
 }
 .nav{
     display: block;
@@ -51,6 +52,10 @@ a:first-child{
     height: 60px;
     margin: 20px 0 0 0;
     font-size: 17px;
+}
+.wrap-img{
+    width: 100%;
+    height: auto;
 }
 .section-about{
     display: block;
