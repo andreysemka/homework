@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class="wrap">
+        <ul class="wrap-active">
+            <li class="wrap-active-current">
+                <a class="wrap-active-current-tab" href="#sign">Sign in</a>
+            </li>
+            <li class="wrap-active-current">
+                <a class="wrap-active-current-tab" href="#join">Join us</a>
+            </li>
+        </ul>
+        <div class="wrap-content">
+            <form action="sing in">
+                <div class="wrap-content-form-one">
+                    <label class="wrap-content-form-label" for="Username">Username</label>
+                    <input class="wrap-content-form-input" type="text" minlength="3" name="Username">
+                    <div class="wrap-content-form-error">error</div>
+                </div>
+                <div class="wrap-content-form-two">
+                    <label class="wrap-content-form-label" for="Password">Password</label>
+                    <input data-mask="000000" class="wrap-content-form-input" required type="password" name="Password">
+                    <div class="wrap-content-form-error">error</div>
+                    <div class="wrap-content-checkbox">
+                        <input class="wrap-content-checkbox-input" checked type="checkbox" name="keep">
+                        <label class="wrap-content-checkbox-label" for="keep">Keep me signed in</label>
+                    </div>
+                </div>
+                <div>
+                    <button class="wrap-content-btn">Sing in</button>
+                </div>
+                <div class="wrap-content-aside">
+                    <a class="wrap-content-aside-link-one" href="#">Forgot password</a>
+                    <a class="wrap-content-aside-link-two" href="#">Create an accout</a>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

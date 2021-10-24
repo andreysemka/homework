@@ -10,14 +10,60 @@
 </head>
 
 <body>
-    <form action="#">
-        <input type="email" name="email" id="email-singl">
-        <label for="email-singl">Email</label>
-        <br>
-        <input type="password" name="password" id="password-singl">
-        <label for="password-singl">Password</label>
-    </form>
-
+    <section class="section-contact">
+        <h1 class="section-contact-title">
+            Contact
+        </h1>
+        <p class="section-contact-text">
+            For new projects, ideas, business or anything
+            you'd like to discuss, contact with me!
+        </p>
+        <div class="section-contact-column">
+            <div class="section-contact-column-user">
+                <ul>
+                    <ol>
+                        <input class="section-contact-column-user-name" minlength="5" type="text"
+                            placeholder="Auskteez Tran" id="username">
+                    </ol>
+                    <ol>
+                        <input class="section-contact-column-user-email"
+                            data-mask="*{1,20}[.*{1,20}][.*{1,20}][.*{1,20}]@*{1,20}[.*{2,6}][.*{1,2}]" required
+                            type="email" placeholder="Your email...">
+                    </ol>
+                    <ol>
+                        <input class="section-contact-column-user-phone" data-mask="0000 00 00 00" type="phone"
+                            placeholder="Your phone number...">
+                    </ol>
+                    <ol>
+                        <input class="section-contact-column-user-text" type=" text" placeholder="Your messge...">
+                    </ol>
+                </ul>
+            </div>
+            <div class="section-contact-column-meta">
+                <p class="section-contact-column-meta-text"><span
+                        class="section-contact-column-meta-text-span">ADDRESS</span> <br> 123 City name, Street, City,
+                    Country</p>
+                <p class="section-contact-column-meta-text"><span
+                        class="section-contact-column-meta-text-span">EMAIL</span>
+                    <br>cahee@domain.com
+                </p>
+                <p class="section-contact-column-meta-text"><span
+                        class="section-contact-column-meta-text-span">PHONE</span>
+                    <br>+012 345 6789
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>© 2015 Company. All right reserved.</p>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="27px">
+            <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="25px" x="0px"
+                y="26.9250000000002px">
+                <tspan font-size="25px" font-family="Pacifico" fill="#B9B9B9">Cahee</tspan>
+            </text>
+        </svg>
+        <p>Made with <span class="footer-span">love</span> by Auskteez</p>
+    </footer>
 </body>
 
 </html>

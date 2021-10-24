@@ -1,0 +1,38 @@
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.wrap {
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-template-columns: 2fr 2fr 2fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 50px 50px; 
+    grid-template-areas: 
+    "wrap-one wrap-one wrap-two"
+    "wrap-one wrap-one wrap-tree"
+    "wrap-four wrap-five wrap-six";
+    padding: 80px;
+}
+  .wrap-img-one { 
+    grid-area: wrap-one; 
+}
+  .wrap-img-two { 
+    grid-area: wrap-two; 
+}
+  .wrap-img-tree { 
+    grid-area: wrap-tree; 
+}
+  .wrap-img-four { 
+    grid-area: wrap-four; 
+}
+  .wrap-img-five { 
+    grid-area: wrap-five; 
+}
+  .wrap-img-six { 
+    grid-area: wrap-six; 
+}
