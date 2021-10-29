@@ -1,0 +1,22 @@
+/*.box:before{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 460px;
+    height: 498px;
+    left: 30%;
+    top: 11%;
+    border-top: 1px dashed rgb(207, 202, 202);
+    border-radius: 50%;
+}
+.box:after{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 350px;
+    height: 160px;
+    left: 56%;
+    top: 11%;
+    border-top: 1px dashed #ddd;
+    border-radius: 55%;
+}*/
