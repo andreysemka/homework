@@ -36,3 +36,46 @@ img{
   .wrap-img-six { 
     grid-area: wrap-six; 
 }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  grid-template-areas: 
+    "grid-col-1 grid-col-2 grid-col-3 grid-col-4"
+    "grid-col-5 grid-col-6 grid-col-7 grid-col-8";
+  position: relative;
+}
+.grid::after{
+  content: "";
+  background-color: rgb(26,26,26);
+  opacity: 0.7;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  top: 0;
+}
+.grid-col-1 { 
+  grid-area: grid-col-1; 
+}
+.grid-col-2 { 
+  grid-area: grid-col-2; 
+}
+.grid-col-3 { 
+  grid-area: grid-col-3; 
+}
+.grid-col-4 { 
+  grid-area: grid-col-4; 
+}
+.grid-col-5 { 
+  grid-area: grid-col-5; 
+}
+.grid-col-6 { 
+  grid-area: grid-col-6; 
+}
+.grid-col-7 { 
+  grid-area: grid-col-7; 
+}
+.grid-col-8 { 
+  grid-area: grid-col-8; 
+}
