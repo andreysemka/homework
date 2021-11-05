@@ -20,3 +20,50 @@
     border-top: 1px dashed #ddd;
     border-radius: 55%;
 }*/
+.container{
+    background-image: url(./img/Img-5.png);
+    background-repeat: no-repeat;
+    height: 730px;
+    position: relative;
+    &__box{
+        position: absolute;
+        top: 42%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        &-title{
+            font-size: 36px;
+            font-family: "Aleo";
+            color: white;
+            text-align: center;
+            margin-bottom: 87px;
+        }
+        &-desc{
+            display: flex;
+            align-items: center;
+            &-item{
+                width: 565px;
+                height: 185px;
+                padding: 50px;
+                background-color: #333333;
+                color: white;
+                &-title{
+                    font-size: 20px;
+                    font-family: "Josefin Sans";
+                    text-transform: uppercase;
+                    margin-top: 0;
+                }
+                &-text{
+                    font-size: 16px;
+                    font-family: "Myriad Pro";
+                    &-lead{
+                        font-size: 36px;
+                        font-family: "FontAwesome";
+                        color: rgb(84, 116, 253);
+                        vertical-align: super;
+                    }
+            }
+            }
+        }
+    }
+
+}
