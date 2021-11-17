@@ -70,21 +70,68 @@
         }
         else
             console.log('false');*/
-        /*------------------ Test 4- не получилось -------------------*/
-        /*let year = prompt('click any year?');
-        if ((year % 4) || (!(year % 100) && (year % 400))); {
+        /*------------------ Test 4 -------------------*/
+        /*let year = prompt('Enter any year', 0);
+        if (year%4 == 0 && year %100 !== 0)
+        {
+         alert('Leap year');
+       }
+        else
+         alert('Not Leap Year');*/
+        /*------------------ Test 5 -------------------*/
+        /*let number = prompt('Enter the number from 10000 to 99999');
+        number = number + '';
+        if (number === number.split('').reverse().join(''))
+        alert('palindrome');
+        else
+        alert('Not palindrome');*/
+        /*------------------ Test 6 -------------------*/
+        /*let amount = prompt('Enter the amount of USD:', 0);
+        let currency = prompt('EUR = 1, UAH = 2, AZN = 3', 0);
+        switch (currency) {
+            case '1':
+                console.log(amount * 0.89 + 'EUR');
+                break;
+            case '2':
+                console.log(amount * 26.10 + 'UAH');
+                break;
+            case '3':
+                console.log(amount * 1.69 + 'AZN');
+                break;
+        }*/
+        /*------------------ Test 7 -------------------*/
+        /*let amount = prompt('Enter the value of purchase:');
+        if (amount >= 200 && amount < 300)
+            alert(amount / 100 * 97 + '$ with 3% discount');
+        else if (amount >= 300 && amount < 500)
+            alert(amount / 100 * 95 + '$ with 5% discount');
+        else if (amount >= 500)
+            alert(amount / 100 * 93 + '$ with 7% discount');*/
+        /*------------------ Test 8 -------------------*/
+        /*let figure = prompt('Введите длину окружности и периметр квадрата?');
+        if (figure >= 0 && figure <= 100) {
             console.log('true');
         }
         else
             console.log('false');*/
-        /*------------------ Test 5 -------------------*/
-        let number = prompt('Enter the number from 10000 to 99999');
-        number = palindrom.length; number > 0; number--;
-        if (number[0] == number[-1]) {
-            alert("Number palindrome");
-        }
-        else
-            alert("Number not palindrome");
+        /*------------------ Test 9 -------------------*/
+        /*let capital = prompt('What is the capital of Great Britain? 1 - London 2 - New York 3 - Paris');
+        let currency = prompt('What is the currency of the USA? 1 - USD 2 - UAH 3 - RMB');
+        let country = prompt('What is the most populated country? 1 - the USA 2 - Japan 3 - China');
+        let score = 0;
+        if (capital == 1)
+            score += 2;
+        if (currency == 1)
+            score += 2;
+        if (country == 3)
+            score += 2;
+        alert('Your score is ' + score);*/
+        /*------------------ Test 10 -------------------*/
+        /*let date = prompt('Enter the date - day-month-year ');
+        date = date.split('-');
+        let oldDate = new Date(date[2], date[1] - 1, date[0]); //месяцы начинаются с 0
+        oldDate.setDate(oldDate.getDate() + 1);
+        alert(oldDate);*/
     </script>
 </body>
 

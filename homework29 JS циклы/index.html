@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /* ============== Test №1 ========================== */
+        /*let first = Number(prompt("Enter first number"));
+        let second = Number(prompt("Enter second number"));
+        let tmp = null;
+        let result = null;
+        if (first > second) {
+            tmp = first;
+            first = second;
+            second = tmp;
+        }
+        for (let i = first; i <= second; i++) {
+            result += i;
+        }
+        console.log('result task #1 : ', result);*/
+        /* ============== Test №2 ========================== */
+        /*let p1 = Number(prompt("Enter first number"));
+        let p2 = Number(prompt("Enter second number"));
+        let arr = [];
+        let minp = p1 < p2 ? p1 : p2;
+        for (let i = 1; i <= minp; i++) {
+            if ((p1 % i) == 0 && (p2 % i) == 0) {
+                arr.push(i);
+            }
+        }
+        console.log('result task #2 : ', Math.max(...arr));
+        let v1 = prompt("Enter number 1");
+        let v2 = prompt("Enter number 2");
+        let result = null;
+        for (let index = v1; index <= v1 && index >= 0; index--) {
+            if (v1 % index === 0 && v2 % index === 0) {
+                result = index;
+                console.log('index : ', index);
+            }
+        }
+        console.log('result task #2 : ', result);*/
+        /* ============== Test №3 ========================== */
+        /*let first = Number(prompt("Enter first number"));
+        let second = Number(prompt("Enter second number"));
+        let arrResult = [];
+        let min = first < second ? first : second;
+        for (let i = 1; i <= min; i++) {
+            if ((first % i) === 0 && (second % i) === 0) {
+                arrResult.push(i);
+            }
+        }
+        console.log('result task #3 : ', arrResult);*/
+        /* ============== Test №4 ========================== */
+        /*let enterNumber = Number(prompt("Enter number"));
+        let allNumbers = [];
+        let sumNumbers = null;
+        for (let i = 0; i <= enterNumber; i++) {
+            allNumbers.push(i);
+            sumNumbers += i;
+        }
+        console.log('result task #4 | arr all numbers : ', allNumbers);
+        console.log('result task #4 | count all numbers : ', allNumbers.length);
+        console.log('result task #4 | sumNumbers : ', sumNumbers);*/
+        /* ============== Test №5 ========================== */
+        /*let questionNumber = 10;
+        let negative = null;
+        let zero = null;
+        let positive = null;
+        let even = null;
+        let odd = null;
+        const array = [];
+        for (let i = 0; i <= questionNumber; i++) {
+            const enterNumber = Number(prompt("Enter number"));
+            array.push(enterNumber);
+            if (enterNumber < 0) {
+                negative++
+            }
+            else if (enterNumber === 0) {
+                zero++
+            }
+            else if (enterNumber > 0) {
+                positive++
+            }
+            else {
+                console.log('ето не число');
+            }
+            enterNumber % 2 ? odd++ : even++
+        }
+        console.log('result task #5 - arr all numbers : ', array);
+        console.log('result task #5 - negative : ', negative);
+        console.log('result task #5 - zero : ', zero);
+        console.log('result task #5 - positive: ', positive);
+        console.log('result task #5 - even : ', even);
+        console.log('result task #5 - odd : ', odd);
+        alert(`
+        Пользователь ввел:
+        меньше нуля: ${negative} цифр;
+        равные нулю: ${zero} цифр;
+        больше нуля: ${positive} цифр;
+        из них было четных чисел ${even} и не четных ${odd} цифр;
+        `);*/
+        /* ============== Test №6 ========================== */
+        /*let questionNumber = -1;
+        let userCounted_N_Times = null;
+        for (let i = 0; i > questionNumber; i++) {
+            if (userCounted_N_Times) {
+                const isRepeat = confirm(`repeat calculations ?`);
+                if (!isRepeat) {
+                    break;
+                }
+            }
+            const first = Number(prompt("Enter first number"));
+            let operator = prompt("What to do with numbers ?");
+            const second = Number(prompt("Enter second number"));
+            let result = null;
+            userCounted_N_Times++;
+            switch (operator) {
+                case '+':
+                    result = first + second;
+                    break;
+                case '-':
+                    result = first - second;
+                    break;
+                case '/':
+                    result = first / second;
+                    break;
+                case '*':
+                    result = first * second;
+                    break;
+                case '%':
+                    result = first % second;
+                    break;
+                default:
+                    alert('this isn\'t correct operator');
+                    continue;
+            }
+            alert(`result = ${result}`);
+        }
+        console.log(`пользовател посчитал ${userCounted_N_Times} раз`);*/
+        /* ============== Test №7 ========================== */
+        /*const first = prompt("Enter number");
+        const second = Number(prompt("Enter move count number"));
+        let result = first.slice(second, first.length);
+        alert(`
+        Строка: ${first}
+        шаг: ${second}
+        Результат: ${result}
+        `)*/
+        /* ============== Test №8 ========================== */
+        /*const daysOfWeek = [
+            "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday",
+        ];
+        for (let i = 0; i < daysOfWeek.length; i++) {
+            const isNextDay = confirm(`День недели ${daysOfWeek[i]}. Хотите увидеть следующий день?`);
+            if (!isNextDay) {
+                break;
+            }
+            if (i === (daysOfWeek.length - 1)) {
+                i = -1;
+            }
+        }*/
+        /* ============== Test №9 ========================== */
+        /*for (let i = 2; i < 10; i++) {
+            console.log(`Умножение на  ${i}`);
+            for (let j = 1; j <= 10; j++) {
+                console.log(`${i} * ${j} = ${i * j}`);
+            }
+        }*/
+        /* ============== Test №10 ========================== */
+        /*let min = 0;
+        let max = 100;
+        let result = max / 2;
+        let step = 1;
+        do {
+            if (max - min === 1) {
+                alert(`А других цифр больше нету. Значит твой выбор был ${min} или ${max}`);
+                break;
+            }
+            let isContinue = confirm('Это ваше число ' + result + '?');
+            if (isContinue) {
+                alert(`Ура! Я угадал твое число за ${step} шагов`);
+                break;
+            } else {
+                step = step + 1;
+                let isMore = confirm('Число больше ' + result + '?');
+                if (isMore) {
+                    min = result;
+                } else {
+                    max = result;
+                }
+                result = Math.floor((min + max) / 2);
+                console.log(`min = ${min}; max = ${max}; result = ${result}`);
+            }
+        } while (true);*/
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /* ============== Test №1 ========================== */
+        /*function params1(a, b, c) {
+            console.log('arg a = ', (a - b) * c);
+            console.log('arg b = ', b - b - a);
+            console.log('arg c = ', c + a);
+        }
+        params1(2, 1, 0);*/
+        /* ============== Test №2 ========================== */
+        /*function factorial(n) {
+        let result = null;
+        console.log('n :', n);
+        if (n != 1) {
+            result = n * factorial(n - 1)
+        } else {
+            result = 1;
+        }
+        console.log('recursion result : ', result);*/
+        /* ============== Test №3 ========================== */
+        /*function concatValue(...value) {
+            return value.reduce((previousValue, currentItem, index, arr) => String(previousValue) + String(currentItem))
+        }
+        console.log(concatValue(1, 2, 3, 4));*/
+        /* ============== Test №4 ========================== */
+        /*const areaOfRectangularShapes = (a, b) => {
+            if (typeof a !== "number" || (!!b && typeof b !== "number")) {
+                return '';
+            }
+            if (a && b) {
+                return a * b;
+            } else if (a || b) {
+                return a > 0 ? a * 2 : b * 2;
+            }
+        };
+        console.log(areaOfRectangularShapes(10, 20));
+        console.log(areaOfRectangularShapes(20));
+        console.log(areaOfRectangularShapes(20, null));*/
+        /* ============== Test №5 ========================== */
+        /*function getSum(arrDivisors) {
+             return arrDivisors.reduce((previousValue, currentItem, index, arr) => previousValue + currentItem)
+             let result = null;
+             for (let i = 0; i < arrDivisors.length; i++) {
+                 result = result + arrDivisors[i];
+             }
+             return result;
+         }
+         if (insertNumber === getSum(getDivisors(insertNumber))) {
+             return 'true';
+         } else {
+             return 'false';
+         }
+     }
+         while (true) {
+             const num = Number(prompt(`4`));
+             if (typeof num === "number" && !isNaN(num)) {
+                 console.log(isPerfectNumber(num));
+             } else {
+                 console.log(`number`);
+             }
+             const isRepeat = confirm('');
+             if (isRepeat) {
+                 continue;
+             } else {
+                 break;
+             }
+         }*/
+        /* ============== Test №6 ========================== */
+        /*function getRandomFloat(min, max) {
+            return Math.random() * (max - min) + min;
+        }
+        getRandomFloat(5, 50);*/
+        /* ============== Test №7 ========================== */
+        /*function diffSubtract(date1, date2) {
+            return date2 - date1;
+        }
+
+        function diffGetTime(date1, date2) {
+            return date2.getTime() - date1.getTime();
+        }
+
+        function bench(f) {
+            let date1 = new Date(0);
+            let date2 = new Date();
+
+            let start = Date.now();
+            for (let i = 0; i < 100000; i++) f(date1, date2);
+            return Date.now() - start;
+        }
+
+        alert('Время diffSubtract: ' + bench(diffSubtract) + 'мс');
+        alert('Время diffGetTime: ' + bench(diffGetTime) + 'мс');*/
+        /* ============== Test №8 ========================== */
+        /*let start = Date.now();
+        for (let i = 0; i < 100000; i++) {
+            let doSomething = i * i * i;
+        }
+        let end = Date.now();
+        alert(`Цикл отработал за ${end - start} миллисекунд`);*/
+        /* ============== Test №9 ========================== */
+        /*function checkTime(i) {
+            if (i < 10) {
+                i = "0" + i;
+            }
+            return i;
+        }
+        function checkTimeMsec(i) {
+            if (i < 100 && i > 10) {
+                i = "0" + i;
+            }
+            else if (i < 10) {
+                i = "00" + i;
+            }
+            return i;
+        }
+        let t = new Date();
+        document.write(checkTime(t.getHours()));
+        document.write(".");
+        document.write(checkTime(t.getMinutes()));
+        document.write(".");
+        document.write(checkTime(t.getSeconds()));
+        document.write(".");
+        document.write(checkTimeMsec(t.getMilliseconds()));*/
+        /* ============== Test №10 ========================== */
+        /*function getDaysBetweenDates(d0, d1) {
+
+            let msPerDay = 8.64e7;
+            let x0 = new Date(d0);
+            let x1 = new Date(d1);
+            x0.setHours(12, 0, 0);
+            x1.setHours(12, 0, 0);
+            return Math.round((x1 - x0) / msPerDay);
+        }*/
+
+    </script>
+</body>
+
+</html>
