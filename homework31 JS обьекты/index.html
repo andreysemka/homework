@@ -38,6 +38,49 @@
         }*/
 
         /* ============== Test №2 ========================== */
+        // 2. Создать объект, хранящий в себе отдельно числитель и знаменатель дроби, и следующие функции для работы с этим объектом: 
+        // Функция сложения 2-х объектов-дробей;
+        // Функция вычитания 2-х объектов-дробей;
+        // Функция умножения 2-х объектов-дробей;
+        // Функция деления 2-х объектов-дробей;
+        // Функция сокращения объекта-дроби.
+
+        /*function calculate(f) {
+            const a = f.numerator / f.denominator;
+            return a;
+        };
+        let firstNumber = Fraction(5, 10);
+        let secondNumber = Fraction(2, 15);
+
+        function multiFraction(obj1, obj2) {
+            let resultUpNumber = obj1.upNumber * obj2.upNumber;
+            let resultDownNumber = obj1.downNumber * obj2.downNumber;
+            alert(`${resultUpNumber}/${resultDownNumber}`);
+        }
+        multiFraction(firstNumber, secondNumber);*/
+        /* ============== Test №2 ========================== */
+        // Функция вывода времени на экран; 
+        // Функция изменения времени на переданное количество секунд; 
+        // Функция изменения времени на переданное количество минут;
+        // Функция изменения времени на переданное количество часов. 
+        // Учтите, что в последних 3-х функциях, при изменении одной части времени, может измениться и другая. Например, если ко времени «20:30:45» добавить 30 секунд, то должно получиться «20:31:15», а не «20:30:75».
+        // Функция вывода времени на экран;
+        function checkTime(i) {
+            if (i < 10) {
+                i = "0" + i;
+            }
+            return i;
+            Data = new Date();
+            Hour = Data.getHours();
+            Minutes = Data.getMinutes();
+            Seconds = Data.getSeconds();
+            document.write(Hour + ':' + Minutes + ':' + Seconds); //текущее время - не работает
+        };
+        function checkTimeMsec(f) {
+            timeInSecond = (f.hour * 3600) + (f.minute * 60) + f.second;
+            return timeInSecond;
+        };
+
     </script>
 </body>
 

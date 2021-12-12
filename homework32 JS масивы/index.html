@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /* ============== Test ========================== */
+        //Створи масив «Список покупок». Кожен елемент масиву є об'єктом, який містить назву продукту, кількість і куплений він чи ні, ціну за одиницю товару, сума. Написати кілька функцій для роботи з таким масивом:
+        //Виводити весь список на екран таким чином, щоб спочатку йшли продукти, що ще не придбані, а потім - ті, що вже придбали.
+        //Покупка продукту. Функція приймає назву продукту і відзначає його як придбаний.
+        //Створення списку (не) придбаних продуктів.
+        class ShopItem {
+            constructor(name, quantity, isBought, price) {
+                this.name = name;
+                this.quantity = quantity;
+                this.isBought = isBought;
+                this.price = price;
+            }
+            getSumm() {
+                return this.quantity * this.price
+            }
+        };
+        let shopingList = [
+            new ShopItem("banana", true, 15.99),
+            new ShopItem("cocoa", 1, false, 8.35),
+            new ShopItem("kiwi", 17, true, 99),
+            new ShopItem("meat", 2, false, 22.85),
+            new ShopItem("bread", 52, true, 15.99)
+        ];
+        console.log(shopingList);
+
+        /*let sortedArray = function (massiv) {
+
+        }
+        console.log(sortedArray(shopingList));*/
+
+        // функция для сортировки списка продуктов, сначала некупленные
+        /*shopingList.sort(
+            function compareNumbers(a, b) {
+                return a.isBought - b.isBought;
+            });
+            shopingList.sort(compareNumbers(a,b));
+        console.log(shopingList);*/
+
+        // второй вариант через стрелочную функцию
+        shopingList.sort(a, b) => a.isBought - b.isBought);
+        console.log(shopingList);
+
+        // функция принимает название продукта.. и отмечает как купленный
+        let buyProduct = function (massiv, name) {
+            return massiv.map(function (item) {
+                //console.log(`item`, item);
+                if (item.name === name) {
+                    item.isBought = true;
+                }
+                return item;
+            });
+        };
+        buyProduct(shopingList, 'cocoa');
+        console.log(shopingList);
+    </script>
+</body>
+
+</html>

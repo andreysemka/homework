@@ -80,6 +80,26 @@
             return Math.random() * (max - min) + min;
         }
         getRandomFloat(5, 50);*/
+        /*или
+        let a1 = prompt("Введите первое число")
+        let a2 = prompt("Введите второе число")
+        let PerfectNumber = function (a) {
+            let result = 0;
+            for (let i = 1; i < a; i++) {
+                if (a % i === 0)
+                    result += i;
+            }
+            return result === a;
+        }
+        function diapazon(min, max) {
+            for (let i = min; i <= max; i++) {
+                //console.log(PerfectNumber(i));
+                if (PerfectNumber(i)) {
+                    console.log (i)
+                }
+            }
+        }
+        diapazon(a1, a2)*/
         /* ============== Test №7 ========================== */
         /*function diffSubtract(date1, date2) {
             return date2 - date1;

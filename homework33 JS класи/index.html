@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="fillId"></p>
+    <script>
+        /* ============== Test №1 ========================== */
+        //Реалізуй клас, що описує коло.У класі повинні бути такі компоненти:
+        //поле, що зберігає радіус кола;
+        //get - властивість, яке повертає радіус кола;
+        //set - властивість, що встановлює радіус кола;
+        //get - властивість, яке повертає діаметр кола;
+        //метод, що обчислює площу кола;
+        //метод, що обчислює довжину кола.
+        /*class Circle {
+            constructor(x, y, r) {
+                this.x = x;
+                this.y = y;
+                this.r = r;
+            }
+            static computeL(r) {
+                return r * Math.PI * 2;
+            }
+            static create(x, y, r) {
+                const c = new Circle(x, y, r);
+                return c;
+            }
+            const a = new Circle(5, 5, 8);
+            const c = Circle.create(5, 5, 8);
+        }*/
+        /* ============== Test №2 ========================== */
+        //Реалізуй клас, що описує канцелярський маркер. У класі повинні бути такі компоненти: 
+        //поле, яке зберігає колір маркера;
+        //поле, яке зберігає кількість чорнил у маркері(у відсотках);
+        //метод для вводу(приймає рядок і виводить текст відповідним кольором; текст виводиться до тих пір, поки в маркері є чорнило; один не пробільний символ — це 0,5% чорнил у маркері).
+        //Реалізуй клас, що описує маркер, який можна перезаправляти.Успадкуй цей клас від простого маркера і додай метод для заправки.
+        /*class Marker {
+            constructor(color, quantity, inputfill) {
+                this.color = color;
+                this.quantity = quantity * 2;
+                this.fill = this.findFill(inputfill);
+            }
+            write(text) {
+                let newString = ();
+                for (let index = 0; index < text.length; index++) {
+                    if (index >= this.quantity) {
+                        break;
+                    }
+                    newString = newString + text[index];
+                }
+                this.fill.innerText = newString;
+                this.fill.style.color = this.color;
+            }
+            findFill(itemId) {
+                return document.getElementById(itemId);
+            }
+
+
+        }
+        let pen = new Marker('red', 20, 'fillId');
+        console.log("pen", pen);
+        pen.write('Lorem ipsum dolor sit amet')*/
+        /* ============== Test №3 ========================== */
+        //Реалізуй клас Employee, що описує працівника, і створи масив працівників банку.
+        //Реалізуй клас EmpTable для генерації HTML-коду таблиці зі списком працівників банку. 
+        //Масив працівників необхідно передавати через конструктор, а отримувати HTML-код за допомогою методу getHtml ().
+        //Створи об'єкт класу EmpTable і виведи на екран результат роботи методу getHtml ().
+        class Employee {
+            constructor(name, speciality, age) {
+                this.name = name;
+                this.speciality = speciality;
+                this.age = age;
+            }
+        }
+        const arrEmp = [
+            new Employee("John Davies", "Director", 47),
+            new Employee("Jack Evans", "General Manager", 38),
+            new Employee("Jack Doy", "Manager", 30),
+            new Employee("Eny Lee", "Manager", 26),
+            new Employee("Olivia Smith", "Manager", 28),
+            new Employee("Emily Walker", "Manager", 24),
+        ];
+        class EmpTable {
+            constructor(employees) {
+                this.employees = employees;
+            }
+        }
+        /*getHtml()
+        const table = document.getElementById("content__table");
+        const array = this.employees;*/
+
+        console.log(arrEmp);
+    </script>
+</body>
+
+</html>
