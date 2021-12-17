@@ -1,15 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,700&display=swap');
 @font-face {
     font-family: "Gotham Medium";
     src: url("/src/fonts/gotham-medium.woff") format("woff"),
          url("/src/fonts/gotham-medium.woff2") format("woff2");
    }
 
-@import 'slick';
-
-$brand-blue:#55b7ff;
-$brand-violet:#7e5aff;
-$white-text:#fff;
-$dark-text:#2c4058;
 $bgHeader: url(/src/img/bg/header.png);
 $ctxt: #2c4058;
 $cdate: #55b7ff;
@@ -176,12 +171,12 @@ p {
         height: 9px;
       }
       text-decoration: none;
-      &:hover .screenNav__filled,
-      &:focus .screenNav__filled {
+      &:hover .screen-nav__filled,
+      &:focus .screen-nav__filled {
         display: block;
       }
-      &:hover .screenNav__unfilled,
-      &:focus .screenNav__unfilled {
+      &:hover .screen-nav__unfilled,
+      &:focus .screen-nav__unfilled {
         display: none;
       }
     }
@@ -215,6 +210,12 @@ p {
   padding: 100px 0;
   box-sizing: border-box;
   &__title {
+    hr {
+      border: none;
+      width: 100px;
+      height: 1px;
+      background-color: #2c4058;
+    }
     text-align: center;
     font-size: 44px;
     text-transform: uppercase;
@@ -323,7 +324,7 @@ p {
     &__descr {
       margin-left: 130px;
     }
-    &__btn {
+    .block1__btn {
       width: 190px;
       height: 50px;
       border: none;
@@ -401,6 +402,15 @@ p {
         font-size: 14px;
       }
     }
+  }
+  .address-map {
+    display: flex;
+    margin-top: 50px;
+    text-decoration: none;
+    color:#2c4058;
+    font-size: 15px;
+    font-family: 'Open Sans italic', sans-serif;
+    font-weight: 400;
   }
 }
 .section3 {
@@ -1120,7 +1130,7 @@ p {
               right: 200px;
             }
           }
-          .showNews {
+          .show-news {
             top: 20px;
           }
         }
